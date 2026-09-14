@@ -1,6 +1,6 @@
 # ★ granolacowboy's starred library
 
-A curated, auto-generated index of **2173** starred repositories across **28** lists. Generated from GitHub Lists; regenerated on demand.
+A curated, auto-generated index of **2171** starred repositories across **28** lists. Generated from GitHub Lists; refreshed weekly.
 
 Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions](https://github.com/MHSBai) · [granolacowboy.dev](https://granolacowboy.dev)
 
@@ -23,9 +23,9 @@ Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions]
 | [Knowledge Mgmt & Notes](lists/knowledge-mgmt-notes.md) | 100 | Note-taking, wikis, knowledge bases, and personal knowledge management |
 | [Productivity & Project Mgmt](lists/productivity-project-mgmt.md) | 100 | Productivity tools, project management, and workflow apps |
 | [Networking & VPN](lists/networking-vpn.md) | 96 | VPN, proxy, network monitoring, and connectivity tools |
-| [Browser Extensions](lists/browser-extensions.md) | 67 | Chrome, Firefox, and Safari browser extensions |
-| [Home Automation & IoT](lists/home-automation-iot.md) | 65 | Smart home, home automation, and IoT projects |
+| [Browser Extensions](lists/browser-extensions.md) | 66 | Chrome, Firefox, and Safari browser extensions |
 | [MCP Servers & Integrations](lists/mcp-servers-integrations.md) | 64 | Model Context Protocol servers, tools, and integrations |
+| [Home Automation & IoT](lists/home-automation-iot.md) | 64 | Smart home, home automation, and IoT projects |
 | [Finance & Trading](lists/finance-trading.md) | 53 | Trading bots, fintech, cryptocurrency, and financial analysis |
 | [Bots & Messaging](lists/bots-messaging.md) | 52 | Chat bots, Telegram bots, Discord bots, and messaging platforms |
 | [OSINT & Forensics](lists/osint-forensics.md) | 45 | Open source intelligence, digital forensics, and investigation tools |
@@ -35,7 +35,4 @@ Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions]
 | [Gaming](lists/gaming.md) | 18 | Game development, game engines, emulators, and gaming tools |
 | [WebRTC & Real-time](lists/webrtc-real-time.md) | 17 | WebRTC, SFU, video conferencing, and real-time communication |
 
-<sub>Total: 2173 repositories · 28 lists · generated automatically.</sub>
-
----
-<sub>Auto-generated from GitHub Lists by `scripts/generate.py`, regenerated on demand (a scheduled refresh needs a `STARS_TOKEN` repo secret, a classic PAT with `read:user`).</sub>
+<sub>Total: 2171 repositories · 28 lists · generated automatically.</sub>
