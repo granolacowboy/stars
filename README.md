@@ -38,4 +38,4 @@ Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions]
 <sub>Total: 2173 repositories · 28 lists · generated automatically.</sub>
 
 ---
-<sub>Auto-generated from GitHub Lists by `scripts/generate.py`; regenerated on demand by `scripts/generate.py` (a scheduled refresh needs a `STARS_TOKEN` repo secret, a classic PAT with `read:user`).</sub>
+<sub>Auto-generated from GitHub Lists by `scripts/generate.py`, regenerated on demand (a scheduled refresh needs a `STARS_TOKEN` repo secret, a classic PAT with `read:user`).</sub>
