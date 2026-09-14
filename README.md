@@ -1,6 +1,6 @@
 # ★ granolacowboy's starred library
 
-A curated, auto-generated index of **2173** starred repositories across **28** lists. Generated from GitHub Lists; refreshed weekly.
+A curated, auto-generated index of **2173** starred repositories across **28** lists. Generated from GitHub Lists; regenerated on demand.
 
 Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions](https://github.com/MHSBai) · [granolacowboy.dev](https://granolacowboy.dev)
 
@@ -38,4 +38,4 @@ Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions]
 <sub>Total: 2173 repositories · 28 lists · generated automatically.</sub>
 
 ---
-<sub>Auto-generated from GitHub Lists by `scripts/generate.py`; refreshed weekly via GitHub Actions (needs a `STARS_TOKEN` repo secret — a classic PAT with `read:user`).</sub>
+<sub>Auto-generated from GitHub Lists by `scripts/generate.py`; regenerated on demand by `scripts/generate.py` (a scheduled refresh needs a `STARS_TOKEN` repo secret, a classic PAT with `read:user`).</sub>
