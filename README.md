@@ -1,8 +1,23 @@
-# ★ granolacowboy's starred library
+# ★ granolacowboy's research library
 
-A curated, auto-generated index of **2171** starred repositories across **28** lists. Generated from GitHub Lists; refreshed weekly.
+A curated snapshot of **2,171 list memberships** across **28 public GitHub Lists**. The same repository may appear in more than one list, so this is intentionally described as membership count rather than a unique-repository count.
+
+**Snapshot:** `2026-09-20` UTC · Generated from manually curated GitHub Lists by [`scripts/generate.py`](scripts/generate.py).
+
+## How to read this
+
+This is a working research library, not a recommendation engine or ranking.
+
+- **Selection is manual.** I decide which repositories belong in each GitHub List.
+- **Rendering is automatic.** The generator turns those Lists into browsable Markdown snapshots.
+- **Ordering is mechanical.** Entries are sorted by GitHub star count for scanability; stars are not treated as a quality score.
+- **Metadata is point-in-time.** Descriptions, languages, star counts, and archive state can change after the snapshot.
+- **Overlap is expected.** A repository can belong to multiple lists.
+- **Inclusion is not endorsement.** Lists include tools I am evaluating, comparing, monitoring, or may want to revisit.
 
 Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions](https://github.com/MHSBai) · [granolacowboy.dev](https://granolacowboy.dev)
+
+## Browse by topic
 
 | List | Count | About |
 |---|--:|---|
@@ -35,4 +50,4 @@ Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions]
 | [Gaming](lists/gaming.md) | 18 | Game development, game engines, emulators, and gaming tools |
 | [WebRTC & Real-time](lists/webrtc-real-time.md) | 17 | WebRTC, SFU, video conferencing, and real-time communication |
 
-<sub>Total: 2171 repositories · 28 lists · generated automatically.</sub>
+<sub>Snapshot 2026-09-20 UTC · 2,171 list memberships · 28 lists. The generator will report unique-repository count on the next regeneration.</sub>
