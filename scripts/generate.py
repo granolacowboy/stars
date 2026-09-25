@@ -229,7 +229,7 @@ def main() -> None:
 
     repo_index = build_repo_index(snapshots)
     previous_snapshot = load_previous_snapshot()
-    previous_repos = previous_snapshot.get("repositories") or {}
+    previous_stars = previous_snapshot.get("stars") or {}
 
     expected_files = set()
     for item in snapshots:
@@ -302,8 +302,7 @@ def main() -> None:
 
     movers = []
     for row in unique_rows:
-        previous = previous_repos.get(row["nameWithOwner"]) or {}
-        old_stars = previous.get("stars")
+        old_stars = previous_stars.get(row["nameWithOwner"])
         if isinstance(old_stars, int):
             delta = (row.get("stargazerCount") or 0) - old_stars
             if delta > 0:
@@ -323,22 +322,17 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    # Momentum only needs the previous star count. Keep one compact rolling
+    # snapshot instead of accumulating large dated metadata snapshots in Git.
     snapshot_payload = {
         "snapshot": snapshot,
-        "repositories": {
-            name: {
-                "stars": row.get("stargazerCount") or 0,
-                "pushed_at": row.get("pushedAt"),
-                "archived": bool(row.get("isArchived")),
-                "lists": sorted(row.get("lists") or []),
-            }
+        "stars": {
+            name: row.get("stargazerCount") or 0
             for name, row in sorted(repo_index.items())
         },
     }
     snapshot_json = json.dumps(snapshot_payload, indent=2, sort_keys=True) + "\n"
     (SNAPSHOTS_DIR / "latest.json").write_text(snapshot_json, encoding="utf-8")
-    history_file = SNAPSHOTS_DIR / f"{snapshot}.json"
-    history_file.write_text(snapshot_json, encoding="utf-8")
 
 
     rows = sorted(snapshots, key=lambda item: -len(item["items"]))
