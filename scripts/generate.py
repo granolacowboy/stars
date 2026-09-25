@@ -20,6 +20,8 @@ import time
 
 OUT = Path(__file__).resolve().parents[1]
 LISTS_DIR = OUT / "lists"
+VIEWS_DIR = OUT / "views"
+SNAPSHOTS_DIR = OUT / "snapshots"
 
 
 def gq(query: str) -> dict:
@@ -59,7 +61,7 @@ def list_items(list_id: str) -> list[dict]:
     query = (
         'query($c:String){ node(id:%s){ ... on UserList { items(first:100, after:$c){ '
         'pageInfo{hasNextPage endCursor} nodes{ ... on Repository { nameWithOwner url description '
-        'stargazerCount isArchived primaryLanguage{name} } } } } } }'
+        'stargazerCount isArchived pushedAt primaryLanguage{name} } } } } } }'
     ) % json.dumps(list_id)
 
     items: list[dict] = []
@@ -122,6 +124,62 @@ def render_list(name: str, description: str, items: list[dict], snapshot: str) -
     return "\n".join(body) + "\n"
 
 
+
+def render_repo_view(title: str, description: str, rows: list[dict], snapshot: str,
+                     extra_column: str = "", extra_value=None) -> str:
+    headers = ["Repo", "★", "Lang", "Lists"]
+    if extra_column:
+        headers.append(extra_column)
+    headers.append("Notes")
+    body = [
+        f"# {title}",
+        "",
+        description,
+        "",
+        f"[← back to index](../README.md) · snapshot {snapshot} UTC",
+        "",
+        "| " + " | ".join(headers) + " |",
+        "|" + "|".join(["---", "--:", "---", "---"] + (["---"] if extra_column else []) + ["---"]) + "|",
+    ]
+    for row in rows:
+        language = (row.get("primaryLanguage") or {}).get("name") or ""
+        notes = (row.get("description") or "").replace("|", "\\|")[:120]
+        list_names = ", ".join(sorted(row.get("lists") or []))
+        cells = [
+            f"[{row['nameWithOwner']}]({row['url']})",
+            str(row.get("stargazerCount", 0)),
+            language,
+            list_names,
+        ]
+        if extra_column:
+            value = extra_value(row) if extra_value else row.get(extra_column, "")
+            cells.append(str(value))
+        cells.append(notes + (" `archived`" if row.get("isArchived") else ""))
+        body.append("| " + " | ".join(cells) + " |")
+    return "\n".join(body) + "\n"
+
+
+def build_repo_index(snapshots: list[dict]) -> dict[str, dict]:
+    index: dict[str, dict] = {}
+    for collection in snapshots:
+        for item in collection["items"]:
+            key = item["nameWithOwner"]
+            record = index.setdefault(key, dict(item, lists=[]))
+            if collection["name"] not in record["lists"]:
+                record["lists"].append(collection["name"])
+    return index
+
+
+def load_previous_snapshot() -> dict:
+    latest = SNAPSHOTS_DIR / "latest.json"
+    if not latest.exists():
+        return {}
+    try:
+        return json.loads(latest.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
 def main() -> None:
     data = gq(
         "{viewer{login lists(first:50){nodes{id name description isPrivate}}}}"
@@ -166,6 +224,12 @@ def main() -> None:
 
     snapshot = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     LISTS_DIR.mkdir(parents=True, exist_ok=True)
+    VIEWS_DIR.mkdir(parents=True, exist_ok=True)
+    SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    repo_index = build_repo_index(snapshots)
+    previous_snapshot = load_previous_snapshot()
+    previous_stars = previous_snapshot.get("stars") or {}
 
     expected_files = set()
     for item in snapshots:
@@ -185,6 +249,91 @@ def main() -> None:
     for existing in LISTS_DIR.glob("*.md"):
         if existing.name not in expected_files:
             existing.unlink()
+
+
+    unique_rows = list(repo_index.values())
+
+    recent = sorted(
+        [row for row in unique_rows if row.get("pushedAt")],
+        key=lambda row: row.get("pushedAt") or "",
+        reverse=True,
+    )[:100]
+    (VIEWS_DIR / "recently-active.md").write_text(
+        render_repo_view(
+            "Recently active repositories",
+            "The 100 most recently pushed repositories in the current research library. Recency is not a quality score.",
+            recent,
+            snapshot,
+            "Last push",
+            lambda row: (row.get("pushedAt") or "")[:10],
+        ),
+        encoding="utf-8",
+    )
+
+    archived = sorted(
+        [row for row in unique_rows if row.get("isArchived")],
+        key=lambda row: -(row.get("stargazerCount") or 0),
+    )
+    (VIEWS_DIR / "archived.md").write_text(
+        render_repo_view(
+            "Archived repositories",
+            "Projects currently marked archived on GitHub. This is useful for pruning or finding maintained successors.",
+            archived,
+            snapshot,
+        ),
+        encoding="utf-8",
+    )
+
+    overlap = sorted(
+        [row for row in unique_rows if len(row.get("lists") or []) >= 2],
+        key=lambda row: (-len(row.get("lists") or []), -(row.get("stargazerCount") or 0)),
+    )
+    (VIEWS_DIR / "overlap.md").write_text(
+        render_repo_view(
+            "Cross-category overlap",
+            "Repositories that appear in two or more curated Lists. High overlap often identifies infrastructure with cross-cutting relevance.",
+            overlap,
+            snapshot,
+            "List count",
+            lambda row: len(row.get("lists") or []),
+        ),
+        encoding="utf-8",
+    )
+
+    movers = []
+    for row in unique_rows:
+        old_stars = previous_stars.get(row["nameWithOwner"])
+        if isinstance(old_stars, int):
+            delta = (row.get("stargazerCount") or 0) - old_stars
+            if delta > 0:
+                mover = dict(row)
+                mover["star_delta"] = delta
+                movers.append(mover)
+    movers.sort(key=lambda row: (-row["star_delta"], -(row.get("stargazerCount") or 0)))
+    (VIEWS_DIR / "movers.md").write_text(
+        render_repo_view(
+            "Observed star movers",
+            "Largest positive star-count changes since the previous generated snapshot. This is observed repository momentum, not an endorsement.",
+            movers[:100],
+            snapshot,
+            "Δ stars",
+            lambda row: f"+{row['star_delta']}",
+        ),
+        encoding="utf-8",
+    )
+
+    # Momentum only needs the previous star count. Keep one compact rolling
+    # snapshot instead of accumulating large dated metadata snapshots in Git.
+    snapshot_payload = {
+        "snapshot": snapshot,
+        "stars": {
+            name: row.get("stargazerCount") or 0
+            for name, row in sorted(repo_index.items())
+        },
+    }
+    snapshot_json = json.dumps(snapshot_payload, indent=2, sort_keys=True) + "\n"
+    (SNAPSHOTS_DIR / "latest.json").write_text(snapshot_json, encoding="utf-8")
+
 
     rows = sorted(snapshots, key=lambda item: -len(item["items"]))
     index = [
@@ -212,6 +361,15 @@ def main() -> None:
         f"Maintained by [Rich Berman](https://github.com/{login}) / "
         "[MHSB Solutions](https://github.com/MHSBai) · "
         "[granolacowboy.dev](https://granolacowboy.dev)",
+        "",
+        "## Research views",
+        "",
+        "- [Recently active](views/recently-active.md) — repositories ordered by most recent push.",
+        "- [Observed star movers](views/movers.md) — star-count changes since the previous generated snapshot.",
+        "- [Cross-category overlap](views/overlap.md) — repositories present in two or more curated Lists.",
+        "- [Archived repositories](views/archived.md) — candidates for pruning or successor research.",
+        "",
+        "The mover view is intentionally based on this repository's own saved snapshots; it does not infer growth from a single current star count.",
         "",
         "## Browse by topic",
         "",
@@ -248,6 +406,7 @@ def main() -> None:
                 "list_memberships": membership_total,
                 "unique_repositories": len(unique_repositories),
                 "snapshot": snapshot,
+                "views": 4,
                 "out": str(OUT),
             },
             indent=2,
