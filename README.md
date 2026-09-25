@@ -1,5 +1,7 @@
 # ★ granolacowboy's research library
 
+[![Verified](https://github.com/granolacowboy/granolacowboy.dev/actions/workflows/verify-stars.yml/badge.svg)](https://github.com/granolacowboy/granolacowboy.dev/actions/workflows/verify-stars.yml)
+
 A curated snapshot of **2,171 list memberships** across **28 public GitHub Lists**. The same repository may appear in more than one list, so this is intentionally described as membership count rather than a unique-repository count.
 
 **Snapshot:** `2026-09-20` UTC · Generated from manually curated GitHub Lists by [`scripts/generate.py`](scripts/generate.py).
@@ -9,13 +11,23 @@ A curated snapshot of **2,171 list memberships** across **28 public GitHub Lists
 This is a working research library, not a recommendation engine or ranking.
 
 - **Selection is manual.** I decide which repositories belong in each GitHub List.
-- **Rendering is automatic.** The generator turns those Lists into browsable Markdown snapshots.
+- **Rendering is deterministic.** The generator turns those Lists into browsable Markdown snapshots; refreshes are explicit so an unattended failure cannot silently rewrite the library.
 - **Ordering is mechanical.** Entries are sorted by GitHub star count for scanability; stars are not treated as a quality score.
 - **Metadata is point-in-time.** Descriptions, languages, star counts, and archive state can change after the snapshot.
 - **Overlap is expected.** A repository can belong to multiple lists.
 - **Inclusion is not endorsement.** Lists include tools I am evaluating, comparing, monitoring, or may want to revisit.
 
 Maintained by [Rich Berman](https://github.com/granolacowboy) / [MHSB Solutions](https://github.com/MHSBai) · [granolacowboy.dev](https://granolacowboy.dev)
+
+## Verification and refresh
+
+The central portfolio verifier compiles the generator and runs its offline unit tests against `main`. To refresh the research snapshot itself, authenticate the GitHub CLI as the account whose Lists should be rendered and run:
+
+```bash
+python scripts/generate.py
+```
+
+The generator fetches all public Lists before writing, retries transient GraphQL failures, and fails closed if the source data is empty or unavailable. Generated Markdown, research views, and the rolling star-count snapshot are then committed together.
 
 ## Browse by topic
 
