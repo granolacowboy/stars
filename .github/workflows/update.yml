@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '0 6 * * 1'   # weekly, Mondays 06:00 UTC
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate.py
+      - tests/test_generate.py
+      - .github/workflows/update.yml
 permissions:
   contents: write
 concurrency:
@@ -11,11 +17,11 @@ concurrency:
 
 jobs:
   update:
-    runs-on: [self-hosted, gcd]
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Run offline generator tests
