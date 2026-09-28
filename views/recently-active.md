@@ -1,0 +1,108 @@
+# Recently active repositories
+
+The 100 most recently pushed repositories in the current research library. Recency is not a quality score.
+
+[← back to index](../README.md) · snapshot 2026-09-28 UTC
+
+| Repo | ★ | Lang | Lists | Last push | Notes |
+|---|--:|---|---|---|---|
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | 31842 | Rust | Terminal & CLI Tools | 2026-09-28 | ✨ Making your shell magical |
+| [microsoft/vscode](https://github.com/microsoft/vscode) | 193230 | TypeScript | Mobile & Desktop Apps | 2026-09-28 | Visual Studio Code |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81927 | Rust | Coding Tools & AI IDEs, Productivity & Project Mgmt, Terminal & CLI Tools | 2026-09-28 | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies |
+| [getsentry/sentry](https://github.com/getsentry/sentry) | 44870 | Python | Backend & APIs, DevOps & Infrastructure | 2026-09-28 | Developer-first error tracking and performance monitoring |
+| [desplega-ai/agent-swarm](https://github.com/desplega-ai/agent-swarm) | 838 | TypeScript | AI Agents & Orchestration | 2026-09-28 | Your Company Agentic Operating System |
+| [cilium/cilium](https://github.com/cilium/cilium) | 25570 | Go | DevOps & Infrastructure, Networking & VPN, Security | 2026-09-28 | eBPF-based Networking, Security, and Observability |
+| [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io) | 9869 | HTML | Home Automation & IoT, Knowledge Mgmt & Notes | 2026-09-28 | :blue_book: Home Assistant User documentation |
+| [cline/cline](https://github.com/cline/cline) | 69498 | TypeScript | Coding Tools & AI IDEs | 2026-09-28 | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. |
+| [home-assistant/core](https://github.com/home-assistant/core) | 91199 | Python | Home Automation & IoT | 2026-09-28 | :house_with_garden: Open source home automation that puts local control and privacy first. |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50134 | C++ | Backend & APIs, Coding Tools & AI IDEs, DevOps & Infrastructure, Home Automation & IoT, Self-Hosted & Privacy | 2026-09-28 | ClickHouse® is a real-time analytics database management system |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 103464 | Python | AI/ML Frameworks | 2026-09-28 | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
+| [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | 32272 | Python | LLM Apps & RAG, Self-Hosted & Privacy, Web & Frontend | 2026-09-28 | Open Source AI Platform - AI Chat with advanced features that works with every LLM |
+| [langchain-ai/terraform](https://github.com/langchain-ai/terraform) | 20 | HCL | DevOps & Infrastructure | 2026-09-28 | Repository containing langchain terraform modules |
+| [llvm/llvm-project](https://github.com/llvm/llvm-project) | 40823 | LLVM | Awesome Lists & Resources | 2026-09-28 | The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. |
+| [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | 4946 | TypeScript | Productivity & Project Mgmt | 2026-09-28 | Library for building distributed, real-time collaborative web  applications |
+| [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | 10975 | TypeScript | MCP Servers & Integrations | 2026-09-28 | Visual testing tool for MCP servers |
+| [jdx/hk](https://github.com/jdx/hk) | 1217 | Rust | Coding Tools & AI IDEs | 2026-09-28 | git hooks and project lints |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | 10684 | TypeScript | MCP Servers & Integrations | 2026-09-28 | The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents. |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 390729 | TypeScript | LLM Apps & RAG | 2026-09-28 | The AI that really does things. Any OS. Any Platform. The lobster way. 🦞  |
+| [grafana/grafana](https://github.com/grafana/grafana) | 76968 | TypeScript | AI/ML Frameworks, Backend & APIs, DevOps & Infrastructure | 2026-09-28 | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple |
+| [expo/expo](https://github.com/expo/expo) | 52481 | TypeScript | Mobile & Desktop Apps, Web & Frontend | 2026-09-28 | An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web. |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | 210618 | TypeScript | Coding Tools & AI IDEs | 2026-09-28 | The open source coding agent. |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | 57662 | TypeScript | Backend & APIs, Git & Version Control, Productivity & Project Mgmt, Self-Hosted & Privacy, Web & Frontend | 2026-09-28 | The open alternative to Salesforce, designed for AI. |
+| [jdx/mise](https://github.com/jdx/mise) | 34392 | Rust | Coding Tools & AI IDEs | 2026-09-28 | dev tools, env vars, task runner |
+| [linuxfoundation/crowd.dev](https://github.com/linuxfoundation/crowd.dev) | 3367 | TypeScript | Productivity & Project Mgmt | 2026-09-28 | LFX Community Data Platform (CDP) |
+| [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111258 | Go | Coding Tools & AI IDEs | 2026-09-28 | TypeScript is a superset of JavaScript that compiles to clean JavaScript output. |
+| [streamlit/streamlit](https://github.com/streamlit/streamlit) | 45847 | Python | Coding Tools & AI IDEs | 2026-09-28 | Streamlit — A faster way to build and share data apps. |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 39976 | Python | AI/ML Frameworks, Web & Frontend | 2026-09-28 | :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, a |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 93201 | Java | DevOps & Infrastructure, Media & Content | 2026-09-28 | #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere |
+| [getzep/graphiti](https://github.com/getzep/graphiti) | 31277 | Python | LLM Apps & RAG | 2026-09-28 | Build Real-Time Knowledge Graphs for AI Agents |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 135366 | Python | AI/ML Frameworks | 2026-09-28 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local infer |
+| [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | 53457 | Kotlin | Coding Tools & AI IDEs, Mobile & Desktop Apps, Web & Frontend | 2026-09-28 | The Kotlin Programming Language.  |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 47040 | Python | Coding Tools & AI IDEs | 2026-09-28 | AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 200592 | C++ | AI/ML Frameworks | 2026-09-28 | An Open Source Machine Learning Framework for Everyone |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 25537 | TypeScript | DevOps & Infrastructure, LLM Apps & RAG, Security | 2026-09-28 | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, C |
+| [temporalio/temporal](https://github.com/temporalio/temporal) | 23339 | Go | Productivity & Project Mgmt | 2026-09-28 | Temporal service |
+| [bagofwords1/bagofwords](https://github.com/bagofwords1/bagofwords) | 457 | Python | LLM Apps & RAG | 2026-09-28 | Chat with your data  -  with memory, rules, and observability built in. Deploy in 2 minutes |
+| [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | 55454 | TypeScript | Knowledge Mgmt & Notes, Productivity & Project Mgmt | 2026-09-28 | Independent technology for modern publishing, memberships, subscriptions and newsletters. |
+| [opf/openproject](https://github.com/opf/openproject) | 16249 | Ruby | Awesome Lists & Resources, Productivity & Project Mgmt, Web & Frontend | 2026-09-28 | OpenProject is the leading open source project management software for product, project and portfolio management. A powe |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 32906 | Rust | AI Agents & Orchestration | 2026-09-28 | Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap any |
+| [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | 10772 | Python | Coding Tools & AI IDEs | 2026-09-28 | An Open-Source Asynchronous Coding Agent |
+| [home-assistant/iOS](https://github.com/home-assistant/iOS) | 2364 | Swift | Home Automation & IoT, Mobile & Desktop Apps | 2026-09-28 | :iphone: Home Assistant for Apple platforms |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 36360 | Python | AI/ML Frameworks | 2026-09-28 | Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more |
+| [classroomio/classroomio](https://github.com/classroomio/classroomio) | 1702 | TypeScript | Awesome Lists & Resources, Backend & APIs, Self-Hosted & Privacy, Web & Frontend | 2026-09-28 | The Open Source Education Platform for Companies. A Simple and Beautiful Alternative to Moodle LMS, EdX, Thinkific and T |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76945 | Python | AI/ML Frameworks, Self-Hosted & Privacy, Web & Frontend | 2026-09-28 | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX |
+| [vercel/next.js](https://github.com/vercel/next.js) | 142852 | JavaScript | Browser Extensions, Web & Frontend | 2026-09-28 | The React Framework |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 29403 | Rust | Backend & APIs, LLM Apps & RAG | 2026-09-28 | Search infrastructure for AI |
+| [nrwl/nx](https://github.com/nrwl/nx) | 29379 | TypeScript | AI Agents & Orchestration, Git & Version Control, Terminal & CLI Tools, Web & Frontend | 2026-09-28 | The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes  |
+| [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig) | 11771 | Python | AI/ML Frameworks, Awesome Lists & Resources | 2026-09-28 | Low-code framework for building custom LLMs, neural networks, and other AI models |
+| [wild-linker/wild](https://github.com/wild-linker/wild) | 4003 | Rust | Coding Tools & AI IDEs | 2026-09-28 | A very fast linker for Linux |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 249781 | Python | AI Agents & Orchestration | 2026-09-28 | The agent that grows with you |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 59800 | Python | LLM Apps & RAG | 2026-09-28 | The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tra |
+| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 29840 | Python | LLM Apps & RAG | 2026-09-28 | The batteries-included agent harness. |
+| [rmusser01/tldw_server](https://github.com/rmusser01/tldw_server) | 1460 | Python | AI/ML Frameworks, Knowledge Mgmt & Notes | 2026-09-28 | tl/dw (Too Long, Didn't Watch): Your Personal Research Multi-Tool - a naive attempt at 'A Young Lady's Illustrated Prime |
+| [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4242 | Java | Security | 2026-09-28 | Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in  |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 185969 | TypeScript | Knowledge Mgmt & Notes, LLM Apps & RAG, Web Scraping & Automation | 2026-09-28 | The web data API to search, scrape, and interact at scale. 🔥 |
+| [oven-sh/bun](https://github.com/oven-sh/bun) | 96072 | Rust | Web & Frontend | 2026-09-28 | Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one |
+| [superset-sh/superset](https://github.com/superset-sh/superset) | 14713 | TypeScript | Coding Tools & AI IDEs, Mobile & Desktop Apps, Terminal & CLI Tools | 2026-09-28 | Superset is an agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription. |
+| [OHF-Voice/intents](https://github.com/OHF-Voice/intents) | 626 | Python | Home Automation & IoT | 2026-09-28 | Intents to be used with Home Assistant |
+| [metabase/metabase](https://github.com/metabase/metabase) | 49445 | Clojure | AI/ML Frameworks, Backend & APIs, Bots & Messaging | 2026-09-28 | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_cha |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | 49828 | Rust | Coding Tools & AI IDEs | 2026-09-28 | An extremely fast Python linter and code formatter, written in Rust. |
+| [coder/coder](https://github.com/coder/coder) | 16741 | Go | Coding Tools & AI IDEs, DevOps & Infrastructure | 2026-09-28 | Secure environments for developers and their agents |
+| [documenso/documenso](https://github.com/documenso/documenso) | 15237 | TypeScript | Backend & APIs, Media & Content, Self-Hosted & Privacy, Web & Frontend | 2026-09-28 | The Open Source DocuSign Alternative. |
+| [microsoft/WSL](https://github.com/microsoft/WSL) | 33790 | C++ | Self-Hosted & Privacy | 2026-09-28 | Windows Subsystem for Linux |
+| [just-every/code](https://github.com/just-every/code) | 4033 | Rust | Coding Tools & AI IDEs, Terminal & CLI Tools | 2026-09-28 | Every Code - push frontier AI to it limits. A fork of the Codex CLI with validation, automation, browser integration, mu |
+| [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28449 | Java | DevOps & Infrastructure, Productivity & Project Mgmt, Web Scraping & Automation | 2026-09-28 | Event Driven Orchestration & Scheduling Platform for Mission Critical Applications |
+| [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49158 | Julia | AI/ML Frameworks | 2026-09-28 | The Julia Programming Language |
+| [elizaOS/eliza](https://github.com/elizaOS/eliza) | 19515 | TypeScript | AI Agents & Orchestration, Bots & Messaging, Finance & Trading | 2026-09-28 | Open source agentic operating system |
+| [different-ai/openwork](https://github.com/different-ai/openwork) | 23773 | TypeScript | Self-Hosted & Privacy | 2026-09-28 | The open-source alternative to Claude Cowork (powered by opencode) |
+| [astral-sh/uv](https://github.com/astral-sh/uv) | 90254 | Rust | Productivity & Project Mgmt | 2026-09-28 | An extremely fast Python package and project manager, written in Rust. |
+| [simstudioai/sim](https://github.com/simstudioai/sim) | 29745 | TypeScript | AI Agents & Orchestration, Productivity & Project Mgmt, Web & Frontend, Web Scraping & Automation | 2026-09-28 | Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders. |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 82876 | TypeScript | Knowledge Mgmt & Notes, LLM Apps & RAG | 2026-09-28 | 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11126 | TypeScript | AI/ML Frameworks | 2026-09-28 | Refine high-quality datasets and visual AI models |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 28403 | TypeScript | AI Agents & Orchestration, Web & Frontend | 2026-09-28 | Mastra is the modern TypeScript framework for AI-powered applications and agents. |
+| [Mentra-Community/MentraOS](https://github.com/Mentra-Community/MentraOS) | 2370 | TypeScript | Voice & Conversational AI | 2026-09-28 | MentraOS is the leading smart glasses OS. See live captions, stream your view, talk to AI, and capture photos hands-free |
+| [navidrome/navidrome](https://github.com/navidrome/navidrome) | 23872 | Go | Media & Content | 2026-09-28 | 🎧 Your Personal Streaming Service  |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187595 | Python | AI Agents & Orchestration | 2026-09-28 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so tha |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 28199 | TypeScript | AI Agents & Orchestration | 2026-09-28 | An open-source AI coding agent that lives in your terminal. |
+| [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 17754 | TypeScript | Awesome Lists & Resources, DevOps & Infrastructure | 2026-09-28 | A collection of projects designed to help developers quickly get started with building deployable applications using the |
+| [openstack/openstack](https://github.com/openstack/openstack) | 6045 | Python | DevOps & Infrastructure, Self-Hosted & Privacy | 2026-09-28 | Repository tracking all OpenStack repositories as submodules. Mirror of code maintained at opendev.org. |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 37584 | TypeScript | AI Agents & Orchestration, Web & Frontend | 2026-09-28 | The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol |
+| [apache/superset](https://github.com/apache/superset) | 74955 | Python | Self-Hosted & Privacy | 2026-09-28 | Apache Superset is a Data Visualization and Data Exploration Platform |
+| [flutter/flutter](https://github.com/flutter/flutter) | 179134 | Dart | Mobile & Desktop Apps, Web & Frontend | 2026-09-28 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
+| [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 66560 | JavaScript | LLM Apps & RAG, Productivity & Project Mgmt, Web Scraping & Automation | 2026-09-28 | Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience |
+| [webstudio-is/webstudio](https://github.com/webstudio-is/webstudio) | 8999 | TypeScript | DevOps & Infrastructure, Web & Frontend | 2026-09-28 | Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headle |
+| [agent-of-empires/agent-of-empires](https://github.com/agent-of-empires/agent-of-empires) | 3298 | Rust | Coding Tools & AI IDEs, Terminal & CLI Tools | 2026-09-28 | Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vib |
+| [LibreChat-AI/LibreChat](https://github.com/LibreChat-AI/LibreChat) | 45059 | TypeScript | DevOps & Infrastructure, LLM Apps & RAG | 2026-09-28 | Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1,  |
+| [gptme/gptme](https://github.com/gptme/gptme) | 4434 | Python | AI Agents & Orchestration, Terminal & CLI Tools | 2026-09-28 | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own p |
+| [mnfst/llm-gateway](https://github.com/mnfst/llm-gateway) | 7544 | TypeScript | Coding Tools & AI IDEs, DevOps & Infrastructure | 2026-09-28 | Connect Your Agents And Harnesses With Any Provider 🦚 |
+| [latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm) | 4687 | TypeScript | AI Agents & Orchestration | 2026-09-28 | Open-source observability for AI agents. Find where your agents fail, dispatch your coding agent to fix it, and verify t |
+| [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21990 | Vue | Media & Content, Self-Hosted & Privacy | 2026-09-28 | An Open Source YouTube app for privacy |
+| [warpdotdev/warp](https://github.com/warpdotdev/warp) | 65232 | Rust | AI Agents & Orchestration, Mobile & Desktop Apps, Terminal & CLI Tools, Web & Frontend | 2026-09-28 | Warp is an agentic development environment, born out of the terminal. |
+| [gradle/gradle](https://github.com/gradle/gradle) | 18860 | Groovy | Mobile & Desktop Apps | 2026-09-28 | Adaptable, fast automation for all |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 129799 | C++ | LLM Apps & RAG | 2026-09-28 | LLM inference in C/C++ |
+| [erxes/erxes](https://github.com/erxes/erxes) | 4090 | TypeScript | Productivity & Project Mgmt | 2026-09-28 | Experience Operating System (XOS) that unifies marketing, sales, operations, and support — run your core business seamle |
+| [hashicorp/vault](https://github.com/hashicorp/vault) | 36314 | Go | DevOps & Infrastructure, Security | 2026-09-28 | A tool for secrets management, encryption as a service, and privileged access management |
+| [facebook/hhvm](https://github.com/facebook/hhvm) | 18665 | C++ | Security | 2026-09-28 | A virtual machine for executing programs written in Hack. |
+| [appwrite/appwrite](https://github.com/appwrite/appwrite) | 57499 | PHP | Backend & APIs, DevOps & Infrastructure, Mobile & Desktop Apps, Self-Hosted & Privacy, Web & Frontend | 2026-09-28 | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Function |
+| [omnara-ai/omnara](https://github.com/omnara-ai/omnara) | 2875 | Go | AI Agents & Orchestration | 2026-09-28 | The open-source alternative to Claude Managed Agents |
+| [LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee) | 4306 | PHP | Media & Content | 2026-09-28 | A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. |
