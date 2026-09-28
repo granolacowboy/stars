@@ -24,12 +24,21 @@ VIEWS_DIR = OUT / "views"
 SNAPSHOTS_DIR = OUT / "snapshots"
 
 
-def gq(query: str) -> dict:
-    """Run a GitHub GraphQL query, retry transient failures, then fail closed."""
+def gq(query: str, variables: dict | None = None) -> dict:
+    """Run a GitHub GraphQL query, retry transient failures, then fail closed.
+
+    Variables are passed as typed ``gh -F`` fields, never string-substituted
+    into the query text: GitHub moved list cursor values from base64 to plain
+    tokens (e.g. ``MTg``), which collided with the old ``$c`` substitution and
+    produced a syntax error (``Expected VAR_SIGN, actual: STRING``).
+    """
     last_error = "unknown GraphQL failure"
+    cmd = ["gh", "api", "graphql", "-f", f"query={query}"]
+    for key, value in (variables or {}).items():
+        cmd += ["-F", f"{key}={value}"]
     for attempt in range(1, 9):
         proc = subprocess.run(
-            ["gh", "api", "graphql", "-f", f"query={query}"],
+            cmd,
             text=True,
             capture_output=True,
         )
@@ -68,14 +77,12 @@ def list_items(list_id: str) -> list[dict]:
     cursor = None
     while True:
         if cursor:
-            paged_query = query.replace("$c", json.dumps(cursor))
+            data = gq(query, {"c": cursor})
         else:
-            paged_query = (
+            data = gq(
                 query.replace(", after:$c", "")
                 .replace("query($c:String)", "query")
             )
-
-        data = gq(paged_query)
         connection = (((data.get("data") or {}).get("node")) or {}).get("items")
         if connection is None:
             raise RuntimeError(f"GitHub returned no items connection for list {list_id}")
