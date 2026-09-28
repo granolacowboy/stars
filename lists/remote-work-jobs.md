@@ -2,30 +2,32 @@
 
 Remote work resources, job boards, and freelancing tools
 
-[← back to index](../README.md) · 28 repos
+[← back to index](../README.md) · 28 list memberships · snapshot 2026-09-28 UTC
+
+> Inclusion means the repository is in this research list; it is not an endorsement or quality ranking. Entries are sorted by GitHub star count for scanability.
 
 | Repo | ★ | Lang | Notes |
 |---|--:|---|---|
-| [coder/code-server](https://github.com/coder/code-server) | 79364 | TypeScript | VS Code in the browser |
-| [resume/resume.github.com](https://github.com/resume/resume.github.com) | 62886 | JavaScript | Resumes generated using the GitHub informations |
-| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 48853 |  | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python |
-| [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 43224 | TypeScript | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try |
-| [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) | 40844 | JavaScript | Source for remoteintech.company — a community-maintained directory of remote-friendly tech companies |
-| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | 35477 |  | A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups |
-| [feder-cr/AIHawk](https://github.com/feder-cr/AIHawk) | 31604 | Python | Anti detect browser and web browsing agent: an open-source MCP server for undetected browsing, AI web scraping and computer use agents. No c |
-| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | 28543 | TeX | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application |
-| [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 28481 | Python | The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support. |
-| [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) | 16479 | Vue | :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS. |
-| [midday-ai/midday](https://github.com/midday-ai/midday) | 15025 | TypeScript | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers |
-| [engineerapart/TheRemoteFreelancer](https://github.com/engineerapart/TheRemoteFreelancer) | 7579 |  | Listing of community-curated resources to find topical remote freelance & contract work for software developers, web designers, and more! |
-| [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | 4663 | TypeScript | Turn any browser into your terminal & command your agents on the go. |
-| [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) | 4317 | Python | Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more |
-| [DevOpsHiveHQ/dynamic-devops-roadmap](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap) | 2497 | TypeScript | A FREE pragmatic DevOps learning to kickstart your DevOps career and knowledge in the Cloud Native era following the Agile MVP style! ⭐ (202 |
-| [hugo53/awesome-RemoteWork](https://github.com/hugo53/awesome-RemoteWork) | 1652 |  | Resources for remote workers: approaches, hiring page, remote life and more. |
-| [AwesomeVisa/awesome-immigration](https://github.com/AwesomeVisa/awesome-immigration) | 1492 |  | An Awesome list of long-term visas |
-| [cbovis/awesome-digital-nomads](https://github.com/cbovis/awesome-digital-nomads) | 1063 |  | 🏝 A curated list of awesome resources for Digital Nomads. |
+| [coder/code-server](https://github.com/coder/code-server) | 79498 | TypeScript | VS Code in the browser |
+| [resume/resume.github.com](https://github.com/resume/resume.github.com) | 62891 | JavaScript | Resumes generated using the GitHub informations |
+| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 49045 |  | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python |
+| [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 43520 | TypeScript | A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try |
+| [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) | 40868 | JavaScript | Source for remoteintech.company — a community-maintained directory of remote-friendly tech companies |
+| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | 35523 |  | A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups |
+| [feder-cr/invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp) | 31692 | Python | Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected brow |
+| [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV) | 28609 | TeX | :page_facing_up: Awesome CV is LaTeX template for your outstanding job application |
+| [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 28533 | Python | The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support. |
+| [salomonelli/best-resume-ever](https://github.com/salomonelli/best-resume-ever) | 16483 | Vue | :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS. |
+| [midday-ai/midday](https://github.com/midday-ai/midday) | 15044 | TypeScript | Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers |
+| [engineerapart/TheRemoteFreelancer](https://github.com/engineerapart/TheRemoteFreelancer) | 7583 |  | Listing of community-curated resources to find topical remote freelance & contract work for software developers, web designers, and more! |
+| [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | 4674 | TypeScript | Turn any browser into your terminal & command your agents on the go. |
+| [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy) | 4362 | Python | Jobs scraper library for LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter & more |
+| [DevOpsHiveHQ/dynamic-devops-roadmap](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap) | 2500 | TypeScript | A FREE pragmatic DevOps learning to kickstart your DevOps career and knowledge in the Cloud Native era following the Agile MVP style in the  |
+| [hugo53/awesome-RemoteWork](https://github.com/hugo53/awesome-RemoteWork) | 1657 |  | Resources for remote workers: approaches, hiring page, remote life and more. |
+| [AwesomeVisa/awesome-immigration](https://github.com/AwesomeVisa/awesome-immigration) | 1493 |  | An Awesome list of long-term visas |
+| [cbovis/awesome-digital-nomads](https://github.com/cbovis/awesome-digital-nomads) | 1065 |  | 🏝 A curated list of awesome resources for Digital Nomads. |
 | [Nithur-M/work-from-anywhere](https://github.com/Nithur-M/work-from-anywhere) | 957 |  | A daily curated list of jobs that allow working from anywhere. |
-| [zenika-open-source/awesome-remote-work](https://github.com/zenika-open-source/awesome-remote-work) | 487 |  | 😎 Awesome lists about remote work |
+| [zenika-open-source/awesome-remote-work](https://github.com/zenika-open-source/awesome-remote-work) | 488 |  | 😎 Awesome lists about remote work |
 | [georgemandis/remote-working-list](https://github.com/georgemandis/remote-working-list) | 452 | JavaScript | A list of job boards and websites for nomadic workers seeking freelance work |
 | [kaymen99/Upwork-AI-jobs-applier](https://github.com/kaymen99/Upwork-AI-jobs-applier) | 166 | Python | AI tool for automating Upwork job applications using AI agents to find and qualify jobs, write personalized cover letters, and prepare for i |
 | [kcoitk/Upwork-additional-questions-and-answers-of-job-application](https://github.com/kcoitk/Upwork-additional-questions-and-answers-of-job-application) | 139 | CSS | Additional Questions and Answers of Upwork Job Application |
