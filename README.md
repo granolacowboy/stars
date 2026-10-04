@@ -1,8 +1,8 @@
 # ★ granolacowboy's research library
 
-A curated snapshot of **4178 list memberships** across **28 public GitHub Lists**, representing **2636 unique repositories**.
+A curated snapshot of **4176 list memberships** across **28 public GitHub Lists**, representing **2635 unique repositories**.
 
-**Snapshot:** `2026-09-28` UTC · Generated from manually curated GitHub Lists by [`scripts/generate.py`](scripts/generate.py).
+**Snapshot:** `2026-10-04` UTC · Generated from manually curated GitHub Lists by [`scripts/generate.py`](scripts/generate.py).
 
 ## How to read this
 
@@ -35,11 +35,11 @@ The mover view is intentionally based on this repository's own saved snapshots; 
 | [Coding Tools & AI IDEs](lists/coding-tools-ai-ides.md) | 286 | Claude Code extensions, AI coding assistants, vibe coding platforms, and developer tools |
 | [Backend & APIs](lists/backend-apis.md) | 279 | Backend frameworks, REST/GraphQL APIs, and server development |
 | [Awesome Lists & Resources](lists/awesome-lists-resources.md) | 278 | Curated lists, learning resources, and collections |
-| [Web & Frontend](lists/web-frontend.md) | 277 | React, Next.js, CSS frameworks, and frontend development |
+| [Web & Frontend](lists/web-frontend.md) | 276 | React, Next.js, CSS frameworks, and frontend development |
 | [DevOps & Infrastructure](lists/devops-infrastructure.md) | 235 | Docker, Kubernetes, CI/CD, cloud, and infrastructure tools |
 | [AI Agents & Orchestration](lists/ai-agents-orchestration.md) | 229 | Multi-agent systems, swarm frameworks, agent coordination, and orchestration tools |
 | [Productivity & Project Mgmt](lists/productivity-project-mgmt.md) | 192 | Productivity tools, project management, and workflow apps |
-| [Mobile & Desktop Apps](lists/mobile-desktop-apps.md) | 184 | iOS, Android, cross-platform mobile and desktop applications |
+| [Mobile & Desktop Apps](lists/mobile-desktop-apps.md) | 183 | iOS, Android, cross-platform mobile and desktop applications |
 | [Self-Hosted & Privacy](lists/self-hosted-privacy.md) | 182 | Self-hosted alternatives, privacy tools, and decentralized apps |
 | [AI/ML Frameworks](lists/ai-ml-frameworks.md) | 150 | ML/DL training & inference frameworks, model libraries, model routing, and knowledge graphs |
 | [Terminal & CLI Tools](lists/terminal-cli-tools.md) | 142 | Terminal utilities, file managers, shell tools, and CLI applications |
@@ -67,4 +67,4 @@ The generator is read-only against the GitHub API. With the GitHub CLI authentic
 python scripts/generate.py
 ```
 
-<sub>Snapshot 2026-09-28 UTC · 4178 list memberships · 2636 unique repositories · 28 lists.</sub>
+<sub>Snapshot 2026-10-04 UTC · 4176 list memberships · 2635 unique repositories · 28 lists.</sub>
