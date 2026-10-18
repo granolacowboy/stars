@@ -2,57 +2,57 @@
 
 Smart home, home automation, and IoT projects
 
-[← back to index](../README.md) · 64 list memberships · snapshot 2026-10-04 UTC
+[← back to index](../README.md) · 64 list memberships · snapshot 2026-10-18 UTC
 
 > Inclusion means the repository is in this research list; it is not an endorsement or quality ranking. Entries are sorted by GitHub star count for scanability.
 
 | Repo | ★ | Lang | Notes |
 |---|--:|---|---|
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 96379 | Rust | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a sin |
-| [home-assistant/core](https://github.com/home-assistant/core) | 91257 | Python | :house_with_garden: Open source home automation that puts local control and privacy first. |
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50244 | C++ | ClickHouse® is a real-time analytics database management system |
-| [curl/curl](https://github.com/curl/curl) | 43078 | C | A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, |
-| [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) | 28642 | Shell | Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2. Supports Ubuntu, Debian, CentOS/RHEL, Alpine |
-| [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech) | 26771 | C++ | DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspbe `archived` |
-| [fosrl/pangolin](https://github.com/fosrl/pangolin) | 23002 | TypeScript | Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and prot |
-| [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | 22973 | Dockerfile | Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or y |
-| [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) | 16946 | Shell | 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources |
-| [memvid/memvid](https://github.com/memvid/memvid) | 16575 | Rust | Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval an |
-| [saltstack/salt](https://github.com/saltstack/salt) | 15688 | Python | Software to automate the management and configuration of infrastructure and applications at scale. |
-| [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io) | 9903 | HTML | :blue_book: Home Assistant User documentation |
-| [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | 9152 | Python |  ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arX |
-| [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | 8502 | Python | A curated list of amazingly awesome Home Assistant resources. |
-| [traccar/traccar](https://github.com/traccar/traccar) | 7834 | Java | Open source GPS tracking platform - self-hosted or managed, 200+ device protocols |
-| [home-assistant/operating-system](https://github.com/home-assistant/operating-system) | 7514 | Python | :beginner: Home Assistant Operating System |
-| [home-assistant/frontend](https://github.com/home-assistant/frontend) | 5688 | TypeScript | :lollipop: Frontend for Home Assistant |
-| [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5224 | PHP | The easiest, full-featured wireless router setup for Debian-based devices. Period. |
-| [home-assistant/android](https://github.com/home-assistant/android) | 3948 | Kotlin | Home Assistant Companion for Android |
-| [dittofeed/dittofeed](https://github.com/dittofeed/dittofeed) | 2976 | TypeScript | Open-source customer engagement. Automate transactional and marketing messages across email, SMS, mobile push, WhatsApp, Slack, and more 📨 |
-| [home-assistant/iOS](https://github.com/home-assistant/iOS) | 2366 | Swift | :iphone: Home Assistant for Apple platforms |
-| [home-assistant/supervisor](https://github.com/home-assistant/supervisor) | 2232 | Python | :house_with_garden: Home Assistant Supervisor |
-| [home-assistant/addons](https://github.com/home-assistant/addons) | 2227 | Shell | :heavy_plus_sign: Docker add-ons for Home Assistant |
-| [home-assistant/supervised-installer](https://github.com/home-assistant/supervised-installer) | 1934 | Shell | Installer for a generic Linux system |
-| [system76/launch](https://github.com/system76/launch) | 1435 | Shell | System76 Launch Configurable Keyboard |
-| [system76/firmware-open](https://github.com/system76/firmware-open) | 1060 | C | System76 Open Firmware |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | 98601 | Rust | π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a sin |
+| [home-assistant/core](https://github.com/home-assistant/core) | 91583 | Python | :house_with_garden: Open source home automation that puts local control and privacy first. |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50475 | C++ | ClickHouse® is a real-time analytics database management system |
+| [curl/curl](https://github.com/curl/curl) | 43159 | C | A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, |
+| [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) | 28760 | Shell | Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco IPsec and IKEv2. Supports Ubuntu, Debian, CentOS/RHEL, Alpine |
+| [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech) | 26770 | C++ | DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspbe `archived` |
+| [fosrl/pangolin](https://github.com/fosrl/pangolin) | 23117 | TypeScript | Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and prot |
+| [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | 23097 | Dockerfile | Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or y |
+| [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) | 16995 | Shell | 📝 A curated list of awesome Raspberry Pi tools, projects, images and resources |
+| [memvid/memvid](https://github.com/memvid/memvid) | 16603 | Rust | Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval an |
+| [saltstack/salt](https://github.com/saltstack/salt) | 15718 | Python | Software to automate the management and configuration of infrastructure and applications at scale. |
+| [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io) | 9968 | HTML | :blue_book: Home Assistant User documentation |
+| [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | 9285 | Python |  ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arX |
+| [frenck/awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | 8564 | Python | A curated list of amazingly awesome Home Assistant resources. |
+| [traccar/traccar](https://github.com/traccar/traccar) | 7887 | Java | Open source GPS tracking platform - self-hosted or managed, 200+ device protocols |
+| [home-assistant/operating-system](https://github.com/home-assistant/operating-system) | 7545 | Python | :beginner: Home Assistant Operating System |
+| [home-assistant/frontend](https://github.com/home-assistant/frontend) | 5722 | TypeScript | :lollipop: Frontend for Home Assistant |
+| [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5225 | PHP | The easiest, full-featured wireless router setup for Debian-based devices. Period. |
+| [home-assistant/android](https://github.com/home-assistant/android) | 3979 | Kotlin | Home Assistant Companion for Android |
+| [dittofeed/dittofeed](https://github.com/dittofeed/dittofeed) | 3009 | TypeScript | Open-source customer engagement. Automate transactional and marketing messages across email, SMS, mobile push, WhatsApp, Slack, and more 📨 |
+| [home-assistant/iOS](https://github.com/home-assistant/iOS) | 2387 | Swift | :iphone: Home Assistant for Apple platforms |
+| [home-assistant/supervisor](https://github.com/home-assistant/supervisor) | 2242 | Python | :house_with_garden: Home Assistant Supervisor |
+| [home-assistant/addons](https://github.com/home-assistant/addons) | 2241 | Shell | :heavy_plus_sign: Docker add-ons for Home Assistant |
+| [home-assistant/supervised-installer](https://github.com/home-assistant/supervised-installer) | 1935 | Shell | Installer for a generic Linux system |
+| [system76/launch](https://github.com/system76/launch) | 1437 | Shell | System76 Launch Configurable Keyboard |
+| [system76/firmware-open](https://github.com/system76/firmware-open) | 1061 | C | System76 Open Firmware |
 | [Telefonica/HomePWN](https://github.com/Telefonica/HomePWN) | 933 | Python | HomePwn - Swiss Army Knife for Pentesting of IoT Devices `archived` |
 | [home-assistant/homebridge-homeassistant](https://github.com/home-assistant/homebridge-homeassistant) | 688 | JavaScript | DEPRECATED in favor of native HomeKit support. -  Homebridge plugin for Home Assistant `archived` |
-| [OHF-Voice/intents](https://github.com/OHF-Voice/intents) | 628 | Python | Intents to be used with Home Assistant |
-| [home-assistant/home-assistant-js-websocket](https://github.com/home-assistant/home-assistant-js-websocket) | 413 | TypeScript | :aerial_tramway: JavaScript websocket client for Home Assistant |
+| [OHF-Voice/intents](https://github.com/OHF-Voice/intents) | 630 | Python | Intents to be used with Home Assistant |
+| [home-assistant/home-assistant-js-websocket](https://github.com/home-assistant/home-assistant-js-websocket) | 414 | TypeScript | :aerial_tramway: JavaScript websocket client for Home Assistant |
 | [system76/ec](https://github.com/system76/ec) | 376 | C | System76 Open Source Embedded Controller |
 | [home-assistant/os-agent](https://github.com/home-assistant/os-agent) | 344 | Go | Daemon allowing to control OS features through D-Bus |
 | [NullPxl/banrays](https://github.com/NullPxl/banrays) | 319 | C++ | Glasses to detect smart-glasses that have cameras. Ray-BANNED |
-| [home-assistant/docker](https://github.com/home-assistant/docker) | 309 | Dockerfile | Home Assistant containers |
-| [home-assistant/cli](https://github.com/home-assistant/cli) | 272 | Go | :white_square_button: Home Assistant command line interface |
-| [home-assistant/example-custom-config](https://github.com/home-assistant/example-custom-config) | 255 | Python | A collection of example custom components for Home Assistant |
+| [home-assistant/docker](https://github.com/home-assistant/docker) | 311 | Dockerfile | Home Assistant containers |
+| [home-assistant/cli](https://github.com/home-assistant/cli) | 273 | Go | :white_square_button: Home Assistant command line interface |
+| [home-assistant/example-custom-config](https://github.com/home-assistant/example-custom-config) | 256 | Python | A collection of example custom components for Home Assistant |
 | [system76/firmware-update](https://github.com/system76/firmware-update) | 212 | Rust | System76 Firmware Update Utility |
-| [home-assistant/apps-example](https://github.com/home-assistant/apps-example) | 189 | Dockerfile | Example Home Assistant apps repository |
-| [system76/coreboot](https://github.com/system76/coreboot) | 178 | C | Fork of coreboot repo |
-| [merliot/hub](https://github.com/merliot/hub) | 165 | Go | Merliot Device Hub |
+| [home-assistant/apps-example](https://github.com/home-assistant/apps-example) | 191 | Dockerfile | Example Home Assistant apps repository |
+| [system76/coreboot](https://github.com/system76/coreboot) | 179 | C | Fork of coreboot repo |
+| [merliot/hub](https://github.com/merliot/hub) | 162 | Go | Merliot Device Hub |
 | [home-assistant/companion.home-assistant](https://github.com/home-assistant/companion.home-assistant) | 129 | JavaScript | :book: Home Assistant Companion docs |
-| [home-assistant/docker-base](https://github.com/home-assistant/docker-base) | 107 | Dockerfile | Home Assistant base images |
-| [home-assistant/apps-development](https://github.com/home-assistant/apps-development) | 106 | HTML | Add-on Repository for Development |
+| [home-assistant/docker-base](https://github.com/home-assistant/docker-base) | 108 | Dockerfile | Home Assistant base images |
+| [home-assistant/apps-development](https://github.com/home-assistant/apps-development) | 105 | HTML | Add-on Repository for Development |
 | [home-assistant/builder](https://github.com/home-assistant/builder) | 93 |  | Home Assistant builder script |
-| [home-assistant/data.home-assistant](https://github.com/home-assistant/data.home-assistant) | 82 | JavaScript | Data Science Portal for Home Assistant. |
+| [home-assistant/data.home-assistant](https://github.com/home-assistant/data.home-assistant) | 82 | JavaScript | Data Science Portal for Home Assistant. `archived` |
 | [home-assistant/home-assistant-notebooks](https://github.com/home-assistant/home-assistant-notebooks) | 72 | Jupyter Notebook | :notebook: Sample Jupyter Notebooks to explore Home Assistant data |
 | [home-assistant/scenegen](https://github.com/home-assistant/scenegen) | 64 | Python | :fireworks: Generate Scenes for Home Assistant  `archived` |
 | [home-assistant/micropython-home-assistant](https://github.com/home-assistant/micropython-home-assistant) | 62 | Python | :snake: Home Assistant client for MicroPython `archived` |
@@ -60,10 +60,10 @@ Smart home, home automation, and IoT projects
 | [home-assistant/assets](https://github.com/home-assistant/assets) | 59 | HTML | :art: Assets for the Home Assistant project |
 | [home-assistant/actions](https://github.com/home-assistant/actions) | 48 | Python | GitHub Actions for Home Assistant workflows |
 | [home-assistant/wheels](https://github.com/home-assistant/wheels) | 47 | Python | Build wheels for Home Assistant |
-| [home-assistant/services.home-assistant.io](https://github.com/home-assistant/services.home-assistant.io) | 46 | TypeScript | Home Assistant web services |
+| [home-assistant/services.home-assistant.io](https://github.com/home-assistant/services.home-assistant.io) | 47 | TypeScript | Home Assistant web services |
 | [home-assistant/alerts.home-assistant.io](https://github.com/home-assistant/alerts.home-assistant.io) | 46 | HTML | Home Assistant Alerts |
 | [home-assistant/my.home-assistant.io](https://github.com/home-assistant/my.home-assistant.io) | 44 | TypeScript | The portal to your home. |
-| [home-assistant/ui-schema](https://github.com/home-assistant/ui-schema) | 41 |  | A schema to define a user interface for Home Assistant. `archived` |
+| [home-assistant/ui-schema](https://github.com/home-assistant/ui-schema) | 40 |  | A schema to define a user interface for Home Assistant. `archived` |
 | [home-assistant/plugin-audio](https://github.com/home-assistant/plugin-audio) | 36 | Shell | Pulseaudio implementation for Home Assistant |
 | [home-assistant/wheels-custom-integrations](https://github.com/home-assistant/wheels-custom-integrations) | 34 |  | Custom integration wheels hosted by Home Assistant |
 | [home-assistant/analytics.home-assistant.io](https://github.com/home-assistant/analytics.home-assistant.io) | 34 | TypeScript | Home of the Home Assistant usage stats. |
