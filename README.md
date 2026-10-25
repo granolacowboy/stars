@@ -2,7 +2,7 @@
 
 A curated snapshot of **4173 list memberships** across **28 public GitHub Lists**, representing **2633 unique repositories**.
 
-**Snapshot:** `2026-10-18` UTC · Generated from manually curated GitHub Lists by [`scripts/generate.py`](scripts/generate.py).
+**Snapshot:** `2026-10-25` UTC · Generated from manually curated GitHub Lists by [`scripts/generate.py`](scripts/generate.py).
 
 ## How to read this
 
@@ -30,8 +30,8 @@ The mover view is intentionally based on this repository's own saved snapshots; 
 
 | List | Count | About |
 |---|--:|---|
-| [LLM Apps & RAG](lists/llm-apps-rag.md) | 469 | LLM applications, RAG pipelines, chatbots, and prompt engineering |
-| [Security](lists/security.md) | 321 | Security tooling, secrets management, pentest/red-team, and vulnerability research |
+| [LLM Apps & RAG](lists/llm-apps-rag.md) | 468 | LLM applications, RAG pipelines, chatbots, and prompt engineering |
+| [Security](lists/security.md) | 322 | Security tooling, secrets management, pentest/red-team, and vulnerability research |
 | [Coding Tools & AI IDEs](lists/coding-tools-ai-ides.md) | 286 | Claude Code extensions, AI coding assistants, vibe coding platforms, and developer tools |
 | [Backend & APIs](lists/backend-apis.md) | 279 | Backend frameworks, REST/GraphQL APIs, and server development |
 | [Awesome Lists & Resources](lists/awesome-lists-resources.md) | 278 | Curated lists, learning resources, and collections |
@@ -67,4 +67,4 @@ The generator is read-only against the GitHub API. With the GitHub CLI authentic
 python scripts/generate.py
 ```
 
-<sub>Snapshot 2026-10-18 UTC · 4173 list memberships · 2633 unique repositories · 28 lists.</sub>
+<sub>Snapshot 2026-10-25 UTC · 4173 list memberships · 2633 unique repositories · 28 lists.</sub>
