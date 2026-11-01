@@ -2,145 +2,145 @@
 
 ML/DL training & inference frameworks, model libraries, model routing, and knowledge graphs
 
-[← back to index](../README.md) · 150 list memberships · snapshot 2026-10-25 UTC
+[← back to index](../README.md) · 150 list memberships · snapshot 2026-11-01 UTC
 
 > Inclusion means the repository is in this research list; it is not an endorsement or quality ranking. Entries are sorted by GitHub star count for scanability.
 
 | Repo | ★ | Lang | Notes |
 |---|--:|---|---|
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201235 | C++ | An Open Source Machine Learning Framework for Everyone |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 168138 | Python | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, f |
-| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 165141 | Python | Stable Diffusion web UI |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 142860 | Python | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the w |
-| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 122149 | Jupyter Notebook | 21 Lessons, Get Started Building with Generative AI  |
-| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 105061 | Python | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
-| [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | 104598 | Python |  |
-| [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 97220 | Python | real time face swap and one-click video deepfake with only a single image |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 95460 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
-| [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 91740 | Jupyter Notebook | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 91653 | Python | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDF |
-| [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 83765 |  | List of Computer Science courses with video lectures. |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78551 | Python | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. |
-| [grafana/grafana](https://github.com/grafana/grafana) | 77493 | TypeScript | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Promet |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 75724 | Python | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) |
-| [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | 75078 |  | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems |
-| [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | 73539 | Jupyter Notebook | A latent text-to-image diffusion model |
-| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67599 | Python | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, |
-| [keras-team/keras](https://github.com/keras-team/keras) | 64388 | Python | Deep Learning for humans |
-| [commaai/openpilot](https://github.com/commaai/openpilot) | 63990 | Python | openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars. |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 62827 | Python | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose esti |
-| [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 58220 | Python | Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export. |
-| [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 57593 | Python | Deepfakes Software For All |
-| [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | 56855 | Python | The world's simplest facial recognition api for Python and the command line |
-| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 50268 | Python | Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, st |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 49944 | Go | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. |
-| [metabase/metabase](https://github.com/metabase/metabase) | 49840 | Clojure | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart: |
-| [microsoft/qlib](https://github.com/microsoft/qlib) | 49698 | Python | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing pr |
-| [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49206 | Julia | The Julia Programming Language |
-| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 47084 | Python | A community-supported supercharged document management system: scan, index and archive all your documents |
-| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 43272 | Python | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. |
-| [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | 41861 | Python | A community-maintained Python framework for creating mathematical animations.  |
-| [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 41429 | Python | Making large AI models cheaper, faster and more accessible |
-| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 41208 | C++ | A library for efficient similarity search and clustering of dense vectors. |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 40431 | Python | :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session re |
-| [pola-rs/polars](https://github.com/pola-rs/polars) | 40197 | Rust | Extremely fast Query Engine for DataFrames, written in Rust |
-| [umami-software/umami](https://github.com/umami-software/umami) | 39677 | TypeScript | Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies |
-| [google-research/google-research](https://github.com/google-research/google-research) | 39025 | Jupyter Notebook | Google Research |
-| [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) | 37705 | Python | GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration. |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 37399 | C++ | Cross-platform, customizable ML solutions for live and streaming media. |
-| [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 37244 | Python | The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- Re |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 36496 | Python | Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more |
-| [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36204 | JavaScript | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35240 | Rust | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud |
-| [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | 34948 | Python | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. |
-| [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) | 33791 | Python | You like pytorch? You like micrograd? You love tinygrad! ❤️  |
-| [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | 32212 | Python | Facebook AI Research Sequence-to-Sequence Toolkit written in Python. `archived` |
-| [tqdm/tqdm](https://github.com/tqdm/tqdm) | 31364 | Python | :zap: A Fast, Extensible Progress Bar for Python and CLI |
-| [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) | 30712 |  | 📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production. |
-| [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) | 30397 |  | A playbook for systematically maximizing the performance of deep learning models. |
-| [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 30237 |  | :memo: An awesome Data Science repository to learn and apply for real world problems. |
-| [plausible/analytics](https://github.com/plausible/analytics) | 29653 | Elixir | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. |
-| [donnemartin/data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) | 29384 | Python | Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HD |
-| [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) | 29090 |  | A curated list of awesome Deep Learning tutorials, projects and communities. |
-| [ml-explore/mlx](https://github.com/ml-explore/mlx) | 28931 | C++ | MLX: An array framework for Apple silicon |
-| [getredash/redash](https://github.com/getredash/redash) | 28852 | Python | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28527 | Python | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and  |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201261 | C++ | An Open Source Machine Learning Framework for Everyone |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 168417 | Python | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, f |
+| [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 165214 | Python | Stable Diffusion web UI |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 144480 | Python | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the w |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 122760 | Jupyter Notebook | 21 Lessons, Get Started Building with Generative AI  |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 105066 | Python | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
+| [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | 104706 | Python |  |
+| [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 97512 | Python | real time face swap and one-click video deepfake with only a single image |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 96072 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 92077 | Python | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDF |
+| [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 91932 | Jupyter Notebook | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all |
+| [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 84472 |  | List of Computer Science courses with video lectures. |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 78925 | Python | Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. |
+| [grafana/grafana](https://github.com/grafana/grafana) | 77623 | TypeScript | The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Promet |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 75824 | Python | Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) |
+| [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | 75281 |  | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems |
+| [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | 73563 | Jupyter Notebook | A latent text-to-image diffusion model |
+| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67635 | Python | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, |
+| [keras-team/keras](https://github.com/keras-team/keras) | 64412 | Python | Deep Learning for humans |
+| [commaai/openpilot](https://github.com/commaai/openpilot) | 64041 | Python | openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars. |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 63018 | Python | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose esti |
+| [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 58247 | Python | Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export. |
+| [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 57598 | Python | Deepfakes Software For All |
+| [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | 56863 | Python | The world's simplest facial recognition api for Python and the command line |
+| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 50285 | Python | Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, st |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | 50115 | Go | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. |
+| [metabase/metabase](https://github.com/metabase/metabase) | 50086 | Clojure | The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart: |
+| [microsoft/qlib](https://github.com/microsoft/qlib) | 49904 | Python | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing pr |
+| [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49232 | Julia | The Julia Programming Language |
+| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 47529 | Python | A community-supported supercharged document management system: scan, index and archive all your documents |
+| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 43280 | Python | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. |
+| [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | 42111 | Python | A community-maintained Python framework for creating mathematical animations.  |
+| [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 41433 | Python | Making large AI models cheaper, faster and more accessible |
+| [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 41246 | C++ | A library for efficient similarity search and clustering of dense vectors. |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 40578 | Python | :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session re |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | 40248 | Rust | Extremely fast Query Engine for DataFrames, written in Rust |
+| [umami-software/umami](https://github.com/umami-software/umami) | 39850 | TypeScript | Umami is a privacy-first web and product analytics platform. Traffic, campaigns, behavior, conversions, and revenue in one place. No cookies |
+| [google-research/google-research](https://github.com/google-research/google-research) | 39085 | Jupyter Notebook | Google Research |
+| [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN) | 37697 | Python | GFPGAN aims at developing Practical Algorithms for Real-world Face Restoration. |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 37502 | C++ | Cross-platform, customizable ML solutions for live and streaming media. |
+| [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 37263 | Python | The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- Re |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 36560 | Python | Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more |
+| [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36284 | JavaScript | The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35369 | Rust | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud |
+| [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | 34959 | Python | Detectron2 is a platform for object detection, segmentation and other visual recognition tasks. |
+| [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) | 33815 | Python | You like pytorch? You like micrograd? You love tinygrad! ❤️  |
+| [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | 32210 | Python | Facebook AI Research Sequence-to-Sequence Toolkit written in Python. `archived` |
+| [tqdm/tqdm](https://github.com/tqdm/tqdm) | 31374 | Python | :zap: A Fast, Extensible Progress Bar for Python and CLI |
+| [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) | 30765 |  | 📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production. |
+| [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) | 30416 |  | A playbook for systematically maximizing the performance of deep learning models. |
+| [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 30263 |  | :memo: An awesome Data Science repository to learn and apply for real world problems. |
+| [plausible/analytics](https://github.com/plausible/analytics) | 29743 | Elixir | Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud. |
+| [donnemartin/data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) | 29386 | Python | Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HD |
+| [ChristosChristofidis/awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) | 29119 |  | A curated list of awesome Deep Learning tutorials, projects and communities. |
+| [ml-explore/mlx](https://github.com/ml-explore/mlx) | 29007 | C++ | MLX: An array framework for Apple silicon |
+| [getredash/redash](https://github.com/getredash/redash) | 28855 | TypeScript | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28618 | Python | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and  |
 | [terryum/awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) | 26200 | TeX | The most cited deep learning papers |
-| [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | 25442 | C# | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics |
-| [plotly/dash](https://github.com/plotly/dash) | 24470 | Python | Data Apps & Dashboards for Python. No JavaScript Required. |
-| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | 23296 | Python | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered b `archived` |
-| [huggingface/datasets](https://github.com/huggingface/datasets) | 22085 | Python | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools |
-| [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | 21466 | Jupyter Notebook | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. |
-| [allinurl/goaccess](https://github.com/allinurl/goaccess) | 21081 | C | GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser. |
-| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 19899 | Python | Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Notebook's features—including capabil |
-| [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 19368 | Python | The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused. |
-| [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | 19101 |  | :book: A curated list of resources dedicated to Natural Language Processing (NLP) |
-| [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 18915 | C++ | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for |
-| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18578 | Jupyter Notebook | Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also s |
-| [microsoft/CNTK](https://github.com/microsoft/CNTK) | 17585 | C++ | Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit `archived` |
-| [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) | 16725 | Python | A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers. |
-| [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) | 16724 |  | A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc. |
-| [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) | 16603 | Python | Air-gapped, privacy-focused, open-source NotebookLM alternative. AI agent that researches, transforms, and edits your documents. Join our Di |
-| [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16181 | Python | Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging m |
-| [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) | 16130 | Shell | A curated list for awesome kubernetes sources :ship::tada: |
-| [treeverse/dvc](https://github.com/treeverse/dvc) | 15942 | Python | 🦉 Data Versioning and ML Experiments |
-| [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) | 15483 | HTML | Creative Coding: Generative Art, Data visualization, Interaction Design, Resources. |
-| [ConardLi/easy-dataset](https://github.com/ConardLi/easy-dataset) | 15036 | JavaScript | A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval |
-| [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) | 14695 |  | A curated list of awesome big data frameworks, ressources and other awesomeness. |
-| [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) | 14249 |  | A curated list of references for MLOps  |
-| [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) | 14180 | Python | A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery M |
-| [mwaskom/seaborn](https://github.com/mwaskom/seaborn) | 14086 | Python | Statistical data visualization in Python |
-| [microsoft/LoRA](https://github.com/microsoft/LoRA) | 13877 | Python | Code for loralib, an implementation of "LoRA: Low-Rank Adaptation of Large Language Models" |
-| [alex000kim/nsfw_data_scraper](https://github.com/alex000kim/nsfw_data_scraper) | 12618 | Shell | Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier |
-| [bentoml/OpenLLM](https://github.com/bentoml/OpenLLM) | 12565 | Python | Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud. |
-| [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12380 | HTML |  A collection of resources and papers on Diffusion Models |
-| [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig) | 11780 | Python | Low-code framework for building custom LLMs, neural networks, and other AI models |
-| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11229 | TypeScript | Refine high-quality datasets and visual AI models |
-| [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 11066 | C++ | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference |
-| [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation) | 10846 |  | :metal: awesome-semantic-segmentation |
-| [OpenPipe/ART](https://github.com/OpenPipe/ART) | 10821 | Python | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement le |
-| [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes) | 9888 | Jupyter Notebook | Best Practices, code samples, and documentation for Computer Vision. `archived` |
-| [alexjc/neural-doodle](https://github.com/alexjc/neural-doodle) | 9846 | Python | Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one imag `archived` |
-| [huseinzol05/Stock-Prediction-Models](https://github.com/huseinzol05/Stock-Prediction-Models) | 9510 | Jupyter Notebook | Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations `archived` |
-| [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) | 7788 | Python | Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get so `archived` |
-| [microsoft/SandDance](https://github.com/microsoft/SandDance) | 7152 | TypeScript | Visually explore, understand, and present your data. |
-| [vespa-engine/vespa](https://github.com/vespa-engine/vespa) | 7145 | Java | The AI search platform |
-| [souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy) | 6731 | Python | An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conve |
+| [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | 25467 | C# | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics |
+| [plotly/dash](https://github.com/plotly/dash) | 24474 | Python | Data Apps & Dashboards for Python. No JavaScript Required. |
+| [Sanster/IOPaint](https://github.com/Sanster/IOPaint) | 23297 | Python | Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered b `archived` |
+| [huggingface/datasets](https://github.com/huggingface/datasets) | 22101 | Python | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools |
+| [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | 21508 | Jupyter Notebook | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. |
+| [allinurl/goaccess](https://github.com/allinurl/goaccess) | 21109 | C | GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser. |
+| [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 20056 | Python | Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to Gemini Notebook's features—including capabil |
+| [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | 19464 | Python | The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused. |
+| [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | 19119 |  | :book: A curated list of resources dedicated to Natural Language Processing (NLP) |
+| [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 18943 | C++ | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for |
+| [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook) | 18577 | Jupyter Notebook | Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also s |
+| [microsoft/CNTK](https://github.com/microsoft/CNTK) | 17583 | C++ | Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit `archived` |
+| [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) | 16757 | Python | A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers. |
+| [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) | 16730 |  | A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc. |
+| [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) | 16709 | Python | Air-gapped, privacy-focused, open-source NotebookLM alternative. AI agent that researches, transforms, and edits your documents. Join our Di |
+| [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | 16183 | Python | Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging m |
+| [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) | 16136 | Shell | A curated list for awesome kubernetes sources :ship::tada: |
+| [treeverse/dvc](https://github.com/treeverse/dvc) | 15954 | Python | 🦉 Data Versioning and ML Experiments |
+| [terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) | 15529 | HTML | Creative Coding: Generative Art, Data visualization, Interaction Design, Resources. |
+| [ConardLi/easy-dataset](https://github.com/ConardLi/easy-dataset) | 15064 | JavaScript | A powerful tool for creating datasets for LLM fine-tuning 、RAG and Eval |
+| [oxnr/awesome-bigdata](https://github.com/oxnr/awesome-bigdata) | 14713 |  | A curated list of awesome big data frameworks, ressources and other awesomeness. |
+| [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) | 14256 |  | A curated list of references for MLOps  |
+| [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) | 14192 | Python | A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery M |
+| [mwaskom/seaborn](https://github.com/mwaskom/seaborn) | 14094 | Python | Statistical data visualization in Python |
+| [microsoft/LoRA](https://github.com/microsoft/LoRA) | 13892 | Python | Code for loralib, an implementation of "LoRA: Low-Rank Adaptation of Large Language Models" |
+| [alex000kim/nsfw_data_scraper](https://github.com/alex000kim/nsfw_data_scraper) | 12628 | Shell | Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier |
+| [bentoml/OpenLLM](https://github.com/bentoml/OpenLLM) | 12575 | Python | Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud. |
+| [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12382 | HTML |  A collection of resources and papers on Diffusion Models |
+| [ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig) | 11792 | Python | Low-code framework for building custom LLMs, neural networks, and other AI models |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11257 | TypeScript | Refine high-quality datasets and visual AI models |
+| [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | 11102 | C++ | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference |
+| [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation) | 10848 |  | :metal: awesome-semantic-segmentation |
+| [OpenPipe/ART](https://github.com/OpenPipe/ART) | 10836 | Python | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement le |
+| [microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes) | 9891 | Jupyter Notebook | Best Practices, code samples, and documentation for Computer Vision. `archived` |
+| [alexjc/neural-doodle](https://github.com/alexjc/neural-doodle) | 9843 | Python | Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one imag `archived` |
+| [huseinzol05/Stock-Prediction-Models](https://github.com/huseinzol05/Stock-Prediction-Models) | 9512 | Jupyter Notebook | Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations `archived` |
+| [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) | 7791 | Python | Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get so `archived` |
+| [vespa-engine/vespa](https://github.com/vespa-engine/vespa) | 7156 | Java | The AI search platform |
+| [microsoft/SandDance](https://github.com/microsoft/SandDance) | 7156 | TypeScript | Visually explore, understand, and present your data. |
+| [souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy) | 6770 | Python | An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conve |
 | [openai/consistency_models](https://github.com/openai/consistency_models) | 6488 | Python | Official repo for consistency models. `archived` |
-| [cactus-compute/cactus](https://github.com/cactus-compute/cactus) | 6158 | C++ | Quantization, kernels, runtime and inference engine for mobiles, wearables, smart home and robots.  |
-| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 5115 | Python | Open-Source Unified Vulnerability Management, DevSecOps & ASPM |
-| [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) | 4702 |  | A curated collection of the strongest NotebookLM slide prompts sourced from the real creative underground . Your go-to resource for AI power |
-| [SwanHubX/SwanLab](https://github.com/SwanHubX/SwanLab) | 4320 | Python | ⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyT |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 4003 | Python |  |
-| [aurelio-labs/semantic-router](https://github.com/aurelio-labs/semantic-router) | 3976 | Python | Superfast AI decision making and intelligent processing of multi-modal data. |
-| [seatgeek/thefuzz](https://github.com/seatgeek/thefuzz) | 3652 | Python | Fuzzy String Matching in Python |
-| [microsoft/hummingbird](https://github.com/microsoft/hummingbird) | 3553 | Python | Hummingbird compiles trained ML models into tensor computation for faster inference. |
-| [openvinotoolkit/openvino_notebooks](https://github.com/openvinotoolkit/openvino_notebooks) | 3230 | Jupyter Notebook | 📚 Jupyter notebook tutorials for OpenVINO™ |
-| [ciur/papermerge](https://github.com/ciur/papermerge) | 2932 | Python | Open Source Document Management System for Digital Archives (Scanned Documents) `archived` |
-| [microsoft/pai](https://github.com/microsoft/pai) | 2700 | JavaScript | Resource scheduling and cluster management for AI `archived` |
-| [plexe-ai/plexe](https://github.com/plexe-ai/plexe) | 2644 | Python | ✨ Build a machine learning model from a prompt |
-| [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) | 2451 | TypeScript | Open-source infrastructure and data orchestration platform for risk decisioning |
-| [openpaperwork/paperwork](https://github.com/openpaperwork/paperwork) | 2434 | Python | Personal document manager (Linux/Windows) -- Moved to Gnome's Gitlab `archived` |
-| [microsoft/Olive](https://github.com/microsoft/Olive) | 2403 | Python | Olive: Simplify ML Model Finetuning, Conversion, Quantization, and Optimization for CPUs, GPUs and NPUs. |
-| [moneymanagerex/moneymanagerex](https://github.com/moneymanagerex/moneymanagerex) | 2279 | C++ | Money Manager Ex is an easy to use, money management application built with wxWidgets |
-| [CaviraOSS/PageLM](https://github.com/CaviraOSS/PageLM) | 2043 | TypeScript | PageLM is a community driven version of NotebookLM & a education platform that transforms study materials into interactive resources like qu |
-| [clawsoftware/clawPDF](https://github.com/clawsoftware/clawPDF) | 1964 | C# | Open Source Virtual (Network) Printer for Windows that allows you to create PDFs, OCR text, and print images, with advanced features usually |
-| [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) | 1858 |  | Human preference data for "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback" `archived` |
-| [aptabase/aptabase](https://github.com/aptabase/aptabase) | 1854 | C# | ✨ Open Source, Privacy-First and Simple Analytics for Mobile, Desktop and Web Apps |
-| [microsoft/responsible-ai-toolbox](https://github.com/microsoft/responsible-ai-toolbox) | 1848 | TypeScript | Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libraries that enable a b |
-| [risinglightdb/risinglight](https://github.com/risinglightdb/risinglight) | 1847 | Rust | An educational OLAP database system. |
-| [open-thought/reasoning-gym](https://github.com/open-thought/reasoning-gym) | 1537 | Python | [NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards |
-| [rmusser01/tldw_server](https://github.com/rmusser01/tldw_server) | 1460 | Python | tl/dw (Too Long, Didn't Watch): Your Personal Research Multi-Tool - a naive attempt at 'A Young Lady's Illustrated Primer' (Open Source Note |
-| [sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI) | 1450 | TypeScript | Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser |
-| [Denys88/rl_games](https://github.com/Denys88/rl_games) | 1406 | Jupyter Notebook | RL implementations |
-| [SakanaAI/text-to-lora](https://github.com/SakanaAI/text-to-lora) | 1320 | Python | Hypernetworks that adapt LLMs for specific benchmark tasks using only textual task description as the input |
-| [opensemanticsearch/open-semantic-search](https://github.com/opensemanticsearch/open-semantic-search) | 1227 | Shell | Open Source research tool to search, browse, analyze and explore large document collections by Semantic Search Engine and Open Source Text M |
-| [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | 952 | C++ | A scalable inference server for models optimized with OpenVINO™ |
-| [superiorlu/AITreasureBox](https://github.com/superiorlu/AITreasureBox) | 876 | Ruby | 🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎 |
+| [cactus-compute/cactus](https://github.com/cactus-compute/cactus) | 6172 | C++ | Quantization, kernels, runtime and inference engine for mobiles, wearables, smart home and robots.  |
+| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 5176 | Python | Open-Source Unified Vulnerability Management, DevSecOps & ASPM |
+| [serenakeyitan/awesome-notebookLM-prompts](https://github.com/serenakeyitan/awesome-notebookLM-prompts) | 4776 |  | A curated collection of the strongest NotebookLM slide prompts sourced from the real creative underground . Your go-to resource for AI power |
+| [SwanHubX/SwanLab](https://github.com/SwanHubX/SwanLab) | 4341 | Python | ⚡️SwanLab - an open-source, modern-design AI training tracking and visualization tool. Supports Cloud / Self-hosted use. Integrated with PyT |
+| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 4031 | Python |  |
+| [aurelio-labs/semantic-router](https://github.com/aurelio-labs/semantic-router) | 4003 | Python | Superfast AI decision making and intelligent processing of multi-modal data. |
+| [seatgeek/thefuzz](https://github.com/seatgeek/thefuzz) | 3651 | Python | Fuzzy String Matching in Python |
+| [microsoft/hummingbird](https://github.com/microsoft/hummingbird) | 3552 | Python | Hummingbird compiles trained ML models into tensor computation for faster inference. |
+| [openvinotoolkit/openvino_notebooks](https://github.com/openvinotoolkit/openvino_notebooks) | 3234 | Jupyter Notebook | 📚 Jupyter notebook tutorials for OpenVINO™ |
+| [ciur/papermerge](https://github.com/ciur/papermerge) | 2933 | Python | Open Source Document Management System for Digital Archives (Scanned Documents) `archived` |
+| [microsoft/pai](https://github.com/microsoft/pai) | 2698 | JavaScript | Resource scheduling and cluster management for AI `archived` |
+| [plexe-ai/plexe](https://github.com/plexe-ai/plexe) | 2646 | Python | ✨ Build a machine learning model from a prompt |
+| [ballerine-io/ballerine](https://github.com/ballerine-io/ballerine) | 2454 | TypeScript | Open-source infrastructure and data orchestration platform for risk decisioning |
+| [openpaperwork/paperwork](https://github.com/openpaperwork/paperwork) | 2432 | Python | Personal document manager (Linux/Windows) -- Moved to Gnome's Gitlab `archived` |
+| [microsoft/Olive](https://github.com/microsoft/Olive) | 2409 | Python | Olive: Simplify ML Model Finetuning, Conversion, Quantization, and Optimization for CPUs, GPUs and NPUs. |
+| [moneymanagerex/moneymanagerex](https://github.com/moneymanagerex/moneymanagerex) | 2278 | C++ | Money Manager Ex is an easy to use, money management application built with wxWidgets |
+| [CaviraOSS/PageLM](https://github.com/CaviraOSS/PageLM) | 2057 | TypeScript | PageLM is a community driven version of NotebookLM & a education platform that transforms study materials into interactive resources like qu |
+| [clawsoftware/clawPDF](https://github.com/clawsoftware/clawPDF) | 1969 | C# | Open Source Virtual (Network) Printer for Windows that allows you to create PDFs, OCR text, and print images, with advanced features usually |
+| [aptabase/aptabase](https://github.com/aptabase/aptabase) | 1862 | C# | ✨ Open Source, Privacy-First and Simple Analytics for Mobile, Desktop and Web Apps |
+| [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) | 1861 |  | Human preference data for "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback" `archived` |
+| [microsoft/responsible-ai-toolbox](https://github.com/microsoft/responsible-ai-toolbox) | 1851 | TypeScript | Responsible AI Toolbox is a suite of tools providing model and data exploration and assessment user interfaces and libraries that enable a b |
+| [risinglightdb/risinglight](https://github.com/risinglightdb/risinglight) | 1848 | Rust | An educational OLAP database system. |
+| [open-thought/reasoning-gym](https://github.com/open-thought/reasoning-gym) | 1542 | Python | [NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards |
+| [rmusser01/tldw_server](https://github.com/rmusser01/tldw_server) | 1466 | Python | tl/dw (Too Long, Didn't Watch): Your Personal Research Multi-Tool - a naive attempt at 'A Young Lady's Illustrated Primer' (Open Source Note |
+| [sauravpanda/BrowserAI](https://github.com/sauravpanda/BrowserAI) | 1451 | TypeScript | Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser |
+| [Denys88/rl_games](https://github.com/Denys88/rl_games) | 1409 | Jupyter Notebook | RL implementations |
+| [SakanaAI/text-to-lora](https://github.com/SakanaAI/text-to-lora) | 1323 | Python | Hypernetworks that adapt LLMs for specific benchmark tasks using only textual task description as the input |
+| [opensemanticsearch/open-semantic-search](https://github.com/opensemanticsearch/open-semantic-search) | 1231 | Shell | Open Source research tool to search, browse, analyze and explore large document collections by Semantic Search Engine and Open Source Text M |
+| [openvinotoolkit/model_server](https://github.com/openvinotoolkit/model_server) | 953 | C++ | A scalable inference server for models optimized with OpenVINO™ |
+| [superiorlu/AITreasureBox](https://github.com/superiorlu/AITreasureBox) | 878 | Ruby | 🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎 |
 | [llama-farm/llamafarm](https://github.com/llama-farm/llamafarm) | 836 | Python | Deploy any AI model, agent, database, RAG, and pipeline locally or remotely in minutes |
-| [buckaroo-data/buckaroo](https://github.com/buckaroo-data/buckaroo) | 685 | Python | Buckaroo - The data table UI  for Notebooks.  Quickly explore dataframes, scroll through dataframes, search, sort, view summary stats and hi |
+| [buckaroo-data/buckaroo](https://github.com/buckaroo-data/buckaroo) | 684 | Python | Buckaroo - The data table UI  for Notebooks.  Quickly explore dataframes, scroll through dataframes, search, sort, view summary stats and hi |
 | [tmc/nlm](https://github.com/tmc/nlm) | 392 | Go | a command line interface to NotebookLM |
-| [anthropics/anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java) | 386 | Kotlin |  |
+| [anthropics/anthropic-sdk-java](https://github.com/anthropics/anthropic-sdk-java) | 387 | Kotlin |  |
 | [jupyterlab/jupyter-collaboration](https://github.com/jupyterlab/jupyter-collaboration) | 278 | Jupyter Notebook | A Jupyter Server Extension Providing Support for Y Documents |
 | [janhq/visual-thinker](https://github.com/janhq/visual-thinker) | 190 | Python |  |
 | [oxwhirl/facmac](https://github.com/oxwhirl/facmac) | 116 | Python |  |
